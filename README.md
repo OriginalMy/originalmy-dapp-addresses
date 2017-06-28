@@ -6,6 +6,9 @@ How to load under *geth*:
     loadScript('<path>/contract_addresses.js')
     loadScript('<path>/utils/utils.js')
 
+## Converting wallets
+For saving space purposes, we decode bitcoin addresses from bs58 and store the hex representation. Bitcoin wallets normally uses 34 chars and because of that it cant fit on a `bytes32` var.
+
 ## Methods
 
 ### Document Authenticity - DocAuth()
