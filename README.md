@@ -4,6 +4,7 @@ Public addresses for OriginalMy Ethereum Classic (ETC) smart-contracts
 How to load under *geth*:
     
     loadScript('<path>/contract_addresses.js')
+    loadScript('<path>/utils/utils.js')
 
 ## Methods
 
