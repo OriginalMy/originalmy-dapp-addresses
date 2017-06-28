@@ -51,7 +51,7 @@ Check the timestamp for a document authenticity stored
     docSign.countSignatures.call('SHA256')
 Count the total of signatures already registered for a document
 
-**countSigners
+**countSigners**
 
     docSign.countSigners.call('SHA256')
 Count the total of signers for a document
@@ -66,7 +66,7 @@ Read information for a signer for a document, using their CPF Id.
     docSign.getSignerBySignerIndex.call('SHA256', INDEX)
 Read information for a signer for a document, using the signer index
     
-**getSignerIdByWallet 
+**getSignerIdByWallet**
 
     docSign.getSignerIdByWallet.call('SHA256', "0x"+toHex(walletConverted))
 Read information for a signer for a document, using their converted wallet information.
@@ -79,7 +79,7 @@ Read information for a signer for a document, using their converted wallet infor
     idRepo.newUser(CPF_ID, 'WALLET')
 Register a new wallet for a user (CPF Id)
 
-**checkUserByWallet
+**checkUserByWallet**
 
     idRepo.checkUserByWallet.call('WALLET')
 Returns the user_id (CPF Id) giving the wallet address
