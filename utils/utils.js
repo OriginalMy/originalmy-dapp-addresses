@@ -1,7 +1,12 @@
 var bs58 = require('bs58')
 
+
+var encodedWallet = 'o^ò4êÈg¤]£á¦Á«Tþºht'
+restoredWallet = 'm'+restoreWallet(encodedWallet)
+console.log(restoredWallet)
+
 function fromHex(bytes){
-    bytesToString = bytes.toString('hex')    
+    bytesToString = bytes.toString('hex')
     var str = ''
     for (var i = 0; i < bytesToString.length; i += 2)
         str += String.fromCharCode(parseInt(bytesToString.substr(i, 2), 16));
