@@ -1,6 +1,6 @@
 # OriginalMy Public ETC/ETH Addresses
 
-On 2017-06-16 we moved *signing contracts*, *document authenticity* and *id repositories* smart-contracts to **Ethereum Classic** because the Ethereum prices, block times and disapearing transactions.
+### On 2017-06-16 we moved *signing contracts*, *document authenticity* and *id repositories* smart-contracts to **Ethereum Classic** because the Ethereum prices, block times and disapearing transactions.
 
 How to load under *geth*:
     
